@@ -1,12 +1,4 @@
 /*
-    Author: TrendyTheme
-    Template: I AM X
-    Version: 1.0
-    URL: http://demo.trendytheme.net/iamx/html
-*/
-
-
-/*
 ====================================
 ------------------------------------
     1. General
@@ -1166,6 +1158,7 @@ Resume Timeline
     margin-top: -20px;
     margin-left: -45px;
     opacity: 0;
+    text-align: center;
     -webkit-transform: translate(0,-50px);
     -moz-transform: translate(0,-50px);
     -ms-transform: translate(0,-50px);
