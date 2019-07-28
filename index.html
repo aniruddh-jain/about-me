@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/animated-headline.css">
     <!-- Roboto Web Font-->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
 </head>
 
 <body style="background-color: #FAFAFA; font-family: 'Roboto', sans-serif; font-weight: 400">
@@ -31,7 +33,7 @@
 	</div>
 
 	<!-- Home Section -->
-	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+	<section id="home" class="tt-fullHeight">
 		<div class="intro">
 
       <h1 class="tt-headline letters type">
@@ -61,9 +63,6 @@
 		</div>
 	</section><!-- End Home Section -->
 
-
-
-
 	<!-- Navigation -->
 	<header class="header">
 		<nav class="navbar navbar-custom" role="navigation">
@@ -81,79 +80,249 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
-						<li><a href="#resume">Resume</a></li>
-						<li><a href="#skills">Skills</a></li>
+						<li><a href="#workEx">Experience</a></li>
 						<li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+						<li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#pubAndCert">Achievements</a></li>
+            <li class="testimonial-check"><a href="#testimonials">Testimonials</a></li>
 					</ul>
 				</div>
 			</div><!-- .container -->
 		</nav>
 	</header><!-- End Navigation -->
 
-
     <!-- About Section -->
-    <section id="about" class="about-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">About Me</h2>
+  <section id="about" class="about-section section-padding">
+    <div class="container">
+      <h2 class="section-title wow fadeInUp">About Me</h2>
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-md-4 col-md-push-8">
-            <div class="biography">
-              <div class="myphoto">
-                <img src="assets/images/myphoto.jpg" alt="">
-              </div>
-              <ul>
-                <li><strong>Name:</strong> Aniruddh Jain</li>
-                <li><strong>Date of birth:</strong> 19 July 1992</li>
-                <li><strong>Nationality:</strong> Indian</li>
-                <li><strong>Phone:</strong> (+91) 7895660920</li>
-                <li><strong>Email:</strong> aniruddh.x.jain@gmail.com</li>
-              </ul>
+        <div class="col-md-4 col-md-push-8">
+          <div class="biography">
+            <div class="myphoto">
+              <img src="assets/images/myphoto.jpg" alt="">
             </div>
-          </div> <!-- col-md-4 -->
-
-          <div class="col-md-8 col-md-pull-4">
-            <div class="short-info wow fadeInUp">
-              <!-- <h3>Objective</h3> -->
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              <!-- <br><br>With professional experience in Web Development, Android Application Development and Java Backend Development, Arnav is proficient in working with HTML5, CSS3, JavaScript, Angular, ReactJS, d3.js, Highcharts, Java and Android Studios.
-              <br><br>Garnering work experience from the corporate firms of all sizes (<strong>BlackRock Services</strong> - a leading global asset management firm, <strong>Bharti Airtel</strong> - a national giant in the telecom industry , <strong>Qwikcilver</strong> - a mid-sized Amazon-funded gifting solutions company and <strong>InLogg</strong> - a logistics solution startup), Arnav is a motivated individual driven by the fascination of technology and the urge to make a difference in the technology world.
-              <br><br>In his free time, Arnav likes to travel, play football and practice playing guitar.--></p> 
-            </div>
-
-            <div class="short-info wow fadeInUp">
-              <!-- <h3>What I Do ?</h3>
-              <p>I am a self-taught web developer. I have been working as a web developer since 2013. I love clean, elegant styling. I think of user experience when I try to craft something. </p> -->
-
-              <ul class="list-check">
-                <li>Web Development</li>
-                <li>Android Development</li>
-                <li>Java</li>
-                <li>Interface and UI/UX Design</li>
-              </ul>
-            </div>
+            <ul>
+              <li><strong>Name:</strong> Aniruddh Jain</li>
+              <li><strong>Nationality:</strong> Indian</li>
+              <li><strong>Email:</strong> aniruddh.x.jain@gmail.com</li>
+            </ul>
           </div>
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </section><!-- End About Section -->
+        </div> <!-- col-md-4 -->
 
-     <!-- Projects Section-->
-     <section id="projects" class="work-section section-padding">
+        <div class="col-md-8 col-md-pull-4">
+          <div class="short-info wow fadeInUp">
+            <p>Full Stack Developer with background in Finance and Analytics. Managed teams 5-20 Analysts working in Data, Product Operations and Finance leading to deliverables to Decision Makers. Working for several years in Management Consulting, and Product Management based on Financial and Data Analytics, I have been managing the KPI’s of Web Development and Product Management Teams. Ironhack's Berlin, MERN Stack Bootcamp is where I got the web development training which was the ideal way to fulfill this intellectual curiosity and combine my previous management experience with advanced tech skills. Aiming to develop the best software, with perfect execution while sipping on a club-mate (berlin tea like beverage).
+              <br><br>
+              A graduate from Columbia University NYC, ETH Zurich and IIT Roorkee has a background in design, economics, investment finance, web development and data science. Aniruddh’s first venture came out of MIT Media Labs and CamTech Hackathon in 2013 which was incorporate into a project in GE Labs, India.
+              <br><br>
+              1 Anih = 1 Aniruddh Jain = 1 AJ =
+              <br>
+              1 Part Executive,
+              <br>
+              1 Part Designer,
+              <br>
+              2 Part Coding Geek in Data and Web Development,
+              <br>
+              2 Part Data based Marketing Champ,
+              <br>
+              1 Part Surfing Coach,
+              <br>
+              1 Part Soccer Fan.
+            </p> 
+          </div>
+
+          <div class="short-info wow fadeInUp">
+            <!-- <h3>What I Do ?</h3>
+            <p>I am a self-taught web developer. I have been working as a web developer since 2013. I love clean, elegant styling. I think of user experience when I try to craft something. </p> -->
+
+            <ul class="list-check">
+              <li>Web Development</li>
+              <li>Android Development</li>
+              <li>Java</li>
+              <li>Interface and UI/UX Design</li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </section><!-- End About Section -->
+
+  <section id="workEx" class="resume-section section">
+    <div class="container">
+        <h4 class="section-title wow fadeInUp">Work Experience</h4>
+        <div class="row">
+          <div class="col-md-12">
+              <div class="resume-title">
+              </div>
+              <div class="resume">
+                  <ul class="timeline">
+
+                      <li>
+                          <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">Jun'17-Present</span>
+                          </div><!-- /posted-date -->
+
+                          <div class="timeline-panel wow fadeInUp">
+                              <div class="timeline-content">
+                                  <div class="timeline-heading">
+                                      <h3>Founder and CEO</h3>
+                                      <span>Blockseed, Greater New York City Area</span>
+                                  </div><!-- /timeline-heading -->
+
+                                  <div class="timeline-body">
+                                      <p>
+                                        <ul type="square">
+                                          <li>BlockSeed’s platform makes startups jump hurdles, to educate them, and makes the ventures better while we gather analytics for refined match making with Investors and Advisors. No More startups that reach your inbox that don't fit your criterion or when you are not investing. And at the same time startups get detailed reports and a gamified pathway to investment.</li><br>
+                                          <li>At Blockseed [www.blockseedinvestments.com] we believe the current information value chain structure used to assess an idea and help it become a successful business is fragmented and inefficient. It is because only deal based data at various funding stages (Seed, Series A, etc.) is available which is a snapshot of the company and not the complete picture. We intend to streamline this flow, collect data between these deal stages, and integrate the conventionally silo-ed processes (aggregate, collaborate, incubate, invest).</li><br>
+                                          <li>Watch the YouTube video <a href="https://www.youtube.com/watch?v=yo6p7Ldv9t0" target="_blank">here</a>.</li>
+                                        </ul>
+                                      </p>
+                                  </div><!-- /timeline-body -->
+                              </div> <!-- /timeline-content -->
+                          </div><!-- /timeline-panel -->
+                      </li>
+
+                      <li class="timeline-inverted">
+                          <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">Mar'19-Present</span>
+                          </div><!-- /posted-date -->
+
+                          <div class="timeline-panel wow fadeInUp">
+                              <div class="timeline-content">
+                                  <div class="timeline-heading">
+                                      <h3>Mentor</h3>
+                                      <span>Columbia IBM Blockchain Accelerator</span>
+                                  </div><!-- /timeline-heading -->
+
+                                  <div class="timeline-body">
+                                      <p>
+                                        <ul>
+                                        </ul>
+                                      </p>
+                                  </div><!-- /timeline-body -->
+                              </div> <!-- /timeline-content -->
+                          </div> <!-- /timeline-panel -->
+                      </li>
+
+
+                      <li>
+                          <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">2008-Present</span>
+                          </div><!-- /posted-date -->
+
+                          <div class="timeline-panel wow fadeInUp">
+                              <div class="timeline-content">
+                                  <div class="timeline-heading">
+                                      <h3>Partner & CEO [USA]</h3>
+                                      <span>Azad Jain and Associates</span>
+                                  </div><!-- /timeline-heading -->
+
+                                  <div class="timeline-body">
+                                      <p>
+                                        <ul type="square">
+                                          <li>Check out the company profile <a href="https://issuu.com/aniruddhjain/docs/profile" target="_blank">here</a>.</li><br>
+                                        </ul>
+                                      </p>
+                                  </div><!-- /timeline-body -->
+                              </div> <!-- /timeline-content -->
+                          </div><!-- /timeline-panel -->
+                      </li>
+
+                      <li class="timeline-inverted">
+                          <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">2018</span>
+                          </div><!-- /posted-date -->
+
+                          <div class="timeline-panel wow fadeInUp">
+                              <div class="timeline-content">
+                                  <div class="timeline-heading">
+                                      <h3>Associate</h3>
+                                      <span>Columbia University in the City of New York</span>
+                                  </div><!-- /timeline-heading -->
+
+                                  <div class="timeline-body">
+                                      <p>
+                                        <ul type="circle">
+                                        </ul>
+                                      </p>
+                                  </div><!-- /timeline-body -->
+                              </div> <!-- /timeline-content -->
+                          </div> <!-- /timeline-panel -->
+                      </li>
+                      
+                      <li>
+                        <div class="posted-date">
+                          <span class="month"  style="background-color: #FAFAFA;">2016</span>
+                        </div><!-- /posted-date -->
+
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>Associate</h3>
+                                    <span>Kengo Kuman and Associates, Paris</span>
+                                </div><!-- /timeline-heading -->
+
+                                <div class="timeline-body">
+                                    <p>
+                                      <ul>
+                                      </ul>
+                                    </p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div> <!-- /timeline-panel -->
+                      </li>
+
+                      <li class="timeline-inverted">
+                          <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">2017</span>
+                          </div><!-- /posted-date -->
+
+                          <div class="timeline-panel wow fadeInUp">
+                              <div class="timeline-content">
+                                  <div class="timeline-heading">
+                                      <h3>PT Investment Associate</h3>
+                                      <span>BWA, Greater New York City Area</span>
+                                  </div><!-- /timeline-heading -->
+
+                                  <div class="timeline-body">
+                                      <p>
+                                        <ul type="circle">
+                                          <li>[BWA manages the distressed investment fund MangoTree focusing on assets in Brooklyn, NJ and NYC]</li><br>
+                                          <li>• Perform financial analysis of multiple deals.</li>
+                                          <li>• Assist with the preparation of pitch books, and investment memos.</li>
+                                          <li>• Review documents from clients, including leases, appraisals, plans, & financial models.</li>
+                                          <li>• Conducting both property and market-level due diligence on potential and ongoing deals.</li>
+                                        </ul>
+                                      </p>
+                                  </div><!-- /timeline-body -->
+                              </div> <!-- /timeline-content -->
+                          </div><!-- /timeline-panel -->
+                      </li>
+
+                  </ul>
+              </div>
+          </div>
+        </div><!-- /row -->
+    </div><!-- /.container -->
+  </section>
+
+  <!-- Projects Section-->
+  <section id="projects" class="work-section section-padding">
       <div class="container">
           <h2 class="section-title wow fadeInUp">Projects</h2>
           <ul class="list-inline" id="filter">
             <li><a class="active" data-group="all">All</a></li>
-            <li><a data-group="ar">Augmented Reality</a></li>
             <li><a data-group="visual">Data Visualizations</a></li>
-            <li><a data-group="hci">Human-Computer Interaction</a></li>
-            <li><a data-group="arch">Architecture</a></li>
+            <li><a data-group="upd">Urban Planning & Design</a></li>
+            <li><a data-group="web">Web Development</a></li>
           </ul>
           <div class="project">
             <div class="row">
               <div id="grid">
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "ar"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "visual"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -167,7 +336,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "hci"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "upd"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -181,7 +350,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "hci"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "upd"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -209,7 +378,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "arch"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -223,35 +392,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "hci"]'>
-                  <div class="portfolio-bg">
-                    <div class="portfolio">
-                      <div class="tt-overlay"></div>
-                      <div class="links">
-                        <a class="image-link" href="assets/images/project6.jpg"><i class="fa fa-search-plus"></i></a>
-                      </div>
-                      <img src="assets/images/project6.jpg" alt="image">
-                      <div class="portfolio-info">
-                        <h3>Long Range Stun G...</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "arch"]'>
-                  <div class="portfolio-bg">
-                    <div class="portfolio">
-                      <div class="tt-overlay"></div>
-                      <div class="links">
-                        <a class="image-link" href="assets/images/project7.jpg"><i class="fa fa-search-plus"></i></a>
-                      </div>
-                      <img src="assets/images/project7.jpg" alt="image">
-                      <div class="portfolio-info">
-                        <h3>Eye KEA - Foldabl...</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "arch"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -265,7 +406,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "arch"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -279,7 +420,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "ar"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "visual"]'>
                   <div class="portfolio-bg">
                     <div class="portfolio">
                       <div class="tt-overlay"></div>
@@ -293,460 +434,379 @@
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "visual"]'>
-                  <div class="portfolio-bg">
-                    <div class="portfolio">
-                      <div class="tt-overlay"></div>
-                      <div class="links">
-                        <a class="image-link" href="assets/images/project11.jpg"><i class="fa fa-search-plus"></i></a>
-                      </div>
-                      <img src="assets/images/project11.jpg" alt="image">
-                      <div class="portfolio-info">
-                        <h3>WorldCup Pavilion ...</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
           </div>
       </div><!-- /.container -->
   </section>
 
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Skills</h2>
-
+  <section id="education" class="resume-section section">
+    <div class="container">
+        <h4 class="section-title wow fadeInUp">Education</h4>
         <div class="row">
-          <div class="col-md-6">
-            <div class="skill-progress">
-              <div class="skill-title"><h3>HTML5/CSS3</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-
-            <div class="skill-progress">
-              <div class="skill-title"><h3>JS/jQuery<br>/Bootstrap</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Java</h3></div>  
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-          </div><!-- /.col-md-6 -->
-
-          <div class="col-md-6">
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Angular5</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3>D3.js</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>90%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3>ReactJS</h3></div>  
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-          </div><!-- /.col-md-6 -->
-        </div><!-- /.row -->
-
-        <div class="skill-chart text-center">
-          <h3>More skills</h3>
-        </div>
-          
-        <div class="row more-skill text-center">
-          <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="85" data-color="e74c3c">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Database<br>Management</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="90" data-color="2ecc71">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Git</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="80" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Android<br>Development</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="75" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Python</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="75" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>OOP</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="90" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Compiler<br>Design</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-      </div><!-- /.container -->
-    </section><!-- End Skills Section -->
-
-
-    <!-- Experience Section -->
-    <section id="resume" class="resume-section section-padding">
-        <div class="container">
-            <h2 class="section-title wow fadeInUp">Experience</h2>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title">
-                    </div>
-                    <div class="resume">
-                        <ul class="timeline">
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month"  style="background-color: #FAFAFA;">Jun'17-Present</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Founder and CEO</h3>
-                                            <span>Blockseed, Greater New York City Area</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>
-                                              <ul type="square">
-                                                <li>BlockSeed’s platform makes startups jump hurdles, to educate them, and makes the ventures better while we gather analytics for refined match making with Investors and Advisors. No More startups that reach your inbox that don't fit your criterion or when you are not investing. And at the same time startups get detailed reports and a gamified pathway to investment.</li><br>
-                                                <li>At Blockseed [www.blockseedinvestments.com] we believe the current information value chain structure used to assess an idea and help it become a successful business is fragmented and inefficient. It is because only deal based data at various funding stages (Seed, Series A, etc.) is available which is a snapshot of the company and not the complete picture. We intend to streamline this flow, collect data between these deal stages, and integrate the conventionally silo-ed processes (aggregate, collaborate, incubate, invest).</li><br>
-                                                <li>Watch the YouTube video <a href="https://www.youtube.com/watch?v=yo6p7Ldv9t0" target="_blank">here</a>.</li>
-                                              </ul>
-                                            </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month"  style="background-color: #FAFAFA;">Mar'19-Present</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Mentor</h3>
-                                            <span>Columbia IBM Blockchain Accelerator</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>
-                                              <ul>
-                                              </ul>
-                                            </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month"  style="background-color: #FAFAFA;">2008-Present</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Partner & CEO [USA]</h3>
-                                            <span>Azad Jain and Associates</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>
-                                              <ul type="square">
-                                                <li>Check out the company profile <a href="https://issuu.com/aniruddhjain/docs/profile" target="_blank">here</a>.</li><br>
-                                              </ul>
-                                            </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month"  style="background-color: #FAFAFA;">2018</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Associate</h3>
-                                            <span>Columbia University in the City of New York</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>
-                                              <ul type="circle">
-                                              </ul>
-                                            </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-                            
-                            <li>
-                              <div class="posted-date">
-                                <span class="month"  style="background-color: #FAFAFA;">2016</span>
-                              </div><!-- /posted-date -->
-
-                              <div class="timeline-panel wow fadeInUp">
-                                  <div class="timeline-content">
-                                      <div class="timeline-heading">
-                                          <h3>Associate</h3>
-                                          <span>Kengo Kuman and Associates, Paris</span>
-                                      </div><!-- /timeline-heading -->
-
-                                      <div class="timeline-body">
-                                          <p>
-                                            <ul>
-                                            </ul>
-                                          </p>
-                                      </div><!-- /timeline-body -->
-                                  </div> <!-- /timeline-content -->
-                              </div> <!-- /timeline-panel -->
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month"  style="background-color: #FAFAFA;">2017</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>PT Investment Associate</h3>
-                                            <span>BWA, Greater New York City Area</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>
-                                              <ul type="circle">
-                                                <li>[BWA manages the distressed investment fund MangoTree focusing on assets in Brooklyn, NJ and NYC]</li><br>
-                                                <li>• Perform financial analysis of multiple deals.</li>
-                                                <li>• Assist with the preparation of pitch books, and investment memos.</li>
-                                                <li>• Review documents from clients, including leases, appraisals, plans, & financial models.</li>
-                                                <li>• Conducting both property and market-level due diligence on potential and ongoing deals.</li>
-                                              </ul>
-                                            </p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- /row -->
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title">
-                        <h3>Education</h3>
-                    </div>
-                    <div class="resume">
-                        <ul class="timeline">
-                            <li>
-                                <div class="posted-date">
-                                    <span class="month"  style="background-color: #FAFAFA;">2019-2020</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Master's Degree - Real Estate Development and Investment Finance</h3>
-                                            <span>Columbia University in the City of New York</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Real Estate Finance and Investment Concentration</p>
-                                            <p>Activities and Societies: Head Entrepreneurship Club</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                    <span class="month"  style="background-color: #FAFAFA;">2013-2017</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Architecture and Economics</h3>
-                                            <span>Eidgenössische Technische Hochschule Zürich</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Major - Information Technology<br>Electives: Artificial Intelligence, Management Information Systems, Strength of Materials</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-
-                            <li>
-                                <div class="posted-date">
-                                    <span class="month"  style="background-color: #FAFAFA;">2011-2013</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Architecture and Economics</h3>
-                                            <span>Indian Institute of Technology, Roorkee</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Activities and Societies: Debate Team - Literary Society, Football Team, Design Team Cognizance (Annual Techfest), Kshitij - Campus Literary Magazine<!-- <br>Marks secured: 79% --></p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- /row -->
-       </div><!-- /.container -->
-    </section><!-- End Resume Section -->
-
-
-    <!-- Hire Section -->
-    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-      <div class="hire-section-bg">
-        <div class="container">
-          <div class="row">
             <div class="col-md-12">
-            </div><!-- /.col-md-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.hire-section-bg -->
-    </section><!-- End Hire Section -->
+                <div class="resume">
+                  <ul class="timeline">
+                    <li>
+                        <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">2019-2020</span>
+                        </div><!-- /posted-date -->
 
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>Master's Degree - Real Estate Development and Investment Finance</h3>
+                                    <span>Columbia University in the City of New York</span>
+                                </div><!-- /timeline-heading -->
 
+                                <div class="timeline-body">
+                                    <p>Real Estate Finance and Investment Concentration</p>
+                                    <p>Activities and Societies: Head Entrepreneurship Club</p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div><!-- /timeline-panel -->
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">2013-2017</span>
+                        </div><!-- /posted-date -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Get in touch</h2><br><br>
-          <div class="col-md-12">
-            <div class="row center-xs">
-              <div class="col-sm-4">
-                <i class="fa fa-map-marker"></i>
-                <address>
-                  <strong>Address/Street</strong>
-                  Flat 212, Powergrid Residency,
-                  <br>Sector 21-C, Faridabad
-                </address>
-              </div>
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>Architecture and Economics</h3>
+                                    <span>Eidgenössische Technische Hochschule Zürich</span>
+                                </div><!-- /timeline-heading -->
 
-              <div class="col-sm-4">
-                <i class="fa fa-mobile"></i>
-                <div class="contact-number">
-                  <strong>Phone Number</strong>
-                  (+91) 7895660920
+                                <div class="timeline-body">
+                                    <p>Major - Information Technology<br>Electives: Artificial Intelligence, Management Information Systems, Strength of Materials</p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div><!-- /timeline-panel -->
+                    </li>
+
+                    <li>
+                        <div class="posted-date">
+                            <span class="month"  style="background-color: #FAFAFA;">2011-2013</span>
+                        </div><!-- /posted-date -->
+
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>Architecture and Economics</h3>
+                                    <span>Indian Institute of Technology, Roorkee</span>
+                                </div><!-- /timeline-heading -->
+
+                                <div class="timeline-body">
+                                    <p>Activities and Societies: Debate Team - Literary Society, Football Team, Design Team Cognizance (Annual Techfest), Kshitij - Campus Literary Magazine<!-- <br>Marks secured: 79% --></p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div> <!-- /timeline-panel -->
+                    </li>
+                  </ul>
                 </div>
-              </div>
-
-              <div class="col-sm-4">
-                <i class="fa fa-envelope"></i>
-                <div class="contact-number">
-                  <strong>E-mail</strong>
-                  aniruddh.x.jain@gmail.com
-                </div>
-              </div>
             </div>
+        </div><!-- /row --> 
+    </div>
+  </section>
 
-            <div></div>
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section section-padding">
+    <div class="container">
+      <h2 class="section-title wow fadeInUp">Skills</h2>
 
-          <div class="row">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill-progress">
+            <div class="skill-title"><h3>HTML5/CSS3</h3></div> 
+            <div class="progress">
+              <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+              </div>
+            </div><!-- /.progress -->
+          </div><!-- /.skill-progress -->
+
+          <div class="skill-progress">
+            <div class="skill-title"><h3>JS/jQuery<br>/Bootstrap</h3></div> 
+            <div class="progress">
+              <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+              </div>
+            </div><!-- /.progress -->
+          </div><!-- /.skill-progress -->
+          <div class="skill-progress">
+            <div class="skill-title"><h3>Java</h3></div>  
+            <div class="progress">
+              <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+              </div>
+            </div><!-- /.progress -->
+          </div><!-- /.skill-progress -->
+        </div><!-- /.col-md-6 -->
+
+        <div class="col-md-6">
+          <div class="skill-progress">
+            <div class="skill-title"><h3>Angular5</h3></div> 
+            <div class="progress">
+              <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+              </div>
+            </div><!-- /.progress -->
+          </div><!-- /.skill-progress -->
+          <div class="skill-progress">
+            <div class="skill-title"><h3>D3.js</h3></div> 
+            <div class="progress">
+              <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>90%</span>
+              </div>
+            </div><!-- /.progress -->
+          </div><!-- /.skill-progress -->
+          <div class="skill-progress">
+            <div class="skill-title"><h3>ReactJS</h3></div>  
+            <div class="progress">
+              <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
+              </div>
+            </div><!-- /.progress -->
+          </div><!-- /.skill-progress -->
+        </div><!-- /.col-md-6 -->
+      </div><!-- /.row -->
+
+      <div class="skill-chart text-center">
+        <h3>More skills</h3>
+      </div>
+        
+      <div class="row more-skill text-center">
+        <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="85" data-color="e74c3c">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Database<br>Management</span>
+                  </div>
+              </div>
           </div>
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- End Contact Section -->
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="90" data-color="2ecc71">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Git</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="80" data-color="3498db">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Android<br>Development</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="75" data-color="3498db">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Python</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="75" data-color="3498db">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>OOP</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="90" data-color="3498db">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Compiler<br>Design</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    </div><!-- /.container -->
+  </section><!-- End Skills Section -->
 
 
-	<!-- Footer Section -->
-    <footer class="footer-wrapper">
+  <!-- Experience Section -->
+  <section id="pubAndCert" class="resume-section section-padding">
+    <div class="container">
+        <h4 class="section-title wow fadeInUp">Publications and Certifications</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="resume">
+                  <ul class="timeline">
+
+                    <li>
+                        <div class="posted-date">
+                          <span class="month"  style="background-color: #FAFAFA;">2017</span>
+                        </div><!-- /posted-date -->
+
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>R Programming by John Hopkins</h3>
+                                </div><!-- /timeline-heading -->
+
+                                <div class="timeline-body">
+                                    <p>
+                                      Coursera course on R Programming by John Hopkins University.
+                                      <br>
+                                      <a class="link" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/S8EL6ED7XPRX">Certificate</a>.
+                                    </p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div> <!-- /timeline-panel -->
+                    </li>
+                      
+                    <li class="timeline-inverted">
+                        <div class="posted-date">
+                          <span class="month"  style="background-color: #FAFAFA;">2016</span>
+                        </div><!-- /posted-date -->
+
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>Privacy Preserving Data Mining</h3>
+                                </div><!-- /timeline-heading -->
+
+                                <div class="timeline-body">
+                                    <p>
+                                        Co-authored a paper on Privacy Preserving Data Mining, published in<br>
+                                        A white paper publication to address the problem of privacy in Data Mining and to suggest a simple yet effective way to preserve the privacy by hiding the sensitive data before using Data Mining algorithms.<br>
+                                        Paper to be published soon.<br>
+                                        <!-- To read the paper, <a class="link" target="_blank" href="">Click Here</a>.<br> -->
+                                        To access the code repository, <a class="link" target="_blank" href="https://github.com/arnav58/PrivacyPreservingDataMining">Click Here</a>.
+                                    </p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div><!-- /timeline-panel -->
+                    </li>
+
+                    <li>
+                        <div class="posted-date">
+                          <span class="month"  style="background-color: #FAFAFA;">2015</span>
+                        </div><!-- /posted-date -->
+
+                        <div class="timeline-panel wow fadeInUp">
+                            <div class="timeline-content">
+                                <div class="timeline-heading">
+                                    <h3>Security in NFC</h3>
+                                </div><!-- /timeline-heading -->
+
+                                <div class="timeline-body">
+                                    <p>
+                                      Co-authored a paper on Security in NFC, published in IJTRE Volume 3, Issue 2, October 2015, ISSN(Online): 2347-4718.
+                                      <br>
+                                      A white paper publication to help reader understand the architecture of NFC memory and to suggest methods to make data transfer and interactions using NFC enabled devices safer using cryptography algorithms.
+                                      <br>
+                                      To read the paper, <a class="link" target="_blank" href="http://www.ijtre.com/manuscript/2015030219.pdf">Click Here</a>.
+                                    </p>
+                                </div><!-- /timeline-body -->
+                            </div> <!-- /timeline-content -->
+                        </div> <!-- /timeline-panel -->
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div><!-- /row -->
+    </div>
+  </section>
+
+  <div id="testimonials" class="testimonial-container skills-section section-padding testimonial-check">
+    
+    <h2 class="section-title wow fadeInUp">Testimonials</h2>
+    <section class="quotes">
+      <div class="bubble">
+        <blockquote>
+          Aniruddh is most likely one of the top professionals to work with that I've ever met in my entire life. Broad minded Founder - his exceptional work flow, skills, creativity and comprehension of change requests made the project a dream. Aniruddh assumed a leadership role in Blockseed alongside me as a Co-Founder, inspiring and motivating his colleagues. His leadership and organizational skills have been invaluable to the company. For Aniruddh Jain the job is always the most important thing to do. Very positive attitude towards work and associated learning. I definitely would recommend him as Founder, or someone to work with.
+        </blockquote>
+        <div></div>
+        <cite>Siddharth Gupta - Business Operations Head and Co-founder, Blockseed.</cite> 
+      </div>
+      <div class="bubble">
+        <blockquote>
+          I could recommend Aniruddh Jain as a person with deep knowledge and great abilities of modern business solutions. He is a detail and data oriented, goal driven, ambitious and powerful co-worker, along with him having vast cross-discipline knowledge and extensive experience in several management roles. Aniruddh provided outstanding results for Blockseed and International House New York, and is always capable of adapting to new working environments. He has a very refreshing and positive attitude towards work. Through the years, we worked on various projects, I was impressed by his execution and manner of doing a great job. I thoroughly appreciated working with him
+        </blockquote>
+        <div></div>
+        <cite>Kim Cramer - PhD Finance Student, Columbia Business School.</cite>
+      </div>
+    </section>
+  </div>
+
+  <!-- Hire Section -->
+  <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+    <div class="hire-section-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="copyright text-center">
-              <p>&copy; Aniruddh Jain<br>All information provided is factual.</p>
-            </div>
+          </div><!-- /.col-md-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.hire-section-bg -->
+  </section><!-- End Hire Section -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section-padding">
+    <div class="container">
+      <h2 class="section-title wow fadeInUp">Get in touch</h2><br><br>
+        <div class="col-md-12">
+          <div class="row center-xs">
+            <form class="form-inline" action="https://formspree.io/aniruddh.x.jain@gmail.com" method="POST">
+              <div class="form-group col-md-12">
+                <input type="email" class="form-control" id="email" placeholder="Your email">
+              </div>
+              <div class="form-group col-md-12">
+                <input type="textfield" class="form-control" id="pwd" placeholder="Your message">
+              </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3">
+                <button type="submit" id="contactMe" class="btn btn-primary" style="display: block;">Submit</button>
+              </div>
+            </form>
+
+          <div></div>
+
+        <div class="row">
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </section><!-- End Contact Section -->
+
+
+<!-- Footer Section -->
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright text-center">
+            <p>&copy; Aniruddh Jain<br>All information provided is factual.</p>
           </div>
         </div>
       </div>
-    </footer><!-- End Footer Section -->
+    </div>
+  </footer><!-- End Footer Section -->
 
 
-	<!-- Scroll-up -->
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
-	</div>
+<!-- Scroll-up -->
+<div class="scroll-up">
+  <a href="#home"><i class="fa fa-angle-up"></i></a>
+</div>
 
-	<!-- Javascript files -->
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.stellar.min.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/jquery.countTo.js"></script>
-  <script src="assets/js/jquery.inview.min.js"></script> 
-  <script src="assets/js/jquery.easypiechart.js"></script>
-  <script src="assets/js/jquery.shuffle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/showMoreLess.js"></script>
-  <script src="assets/js/animated-headline.js"></script>
+<!-- Javascript files -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.stellar.min.js"></script>
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.countTo.js"></script>
+<script src="assets/js/jquery.inview.min.js"></script> 
+<script src="assets/js/jquery.easypiechart.js"></script>
+<script src="assets/js/jquery.shuffle.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/animated-headline.js"></script>
 </body>
 </html>

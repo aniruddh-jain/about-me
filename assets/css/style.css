@@ -43,6 +43,11 @@ a {
     color: #68c3a3;
 }
 
+.timeline-body {
+    font-size: 14px;
+}
+
+
 .timeline-body a{
     color: #1E17E3;
 }
@@ -282,7 +287,7 @@ ul.list-check li::before {
 .section-title {
     margin-bottom: 80px;
     text-align: center;
-    font-size: 50px;
+    font-size: 36px;
     line-height: 50px;
     color: #2c3e50;
     position: relative;
@@ -311,10 +316,9 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home-bgn.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
-	background-color: #222;
+	background-color: rgba(0, 0, 0, 0.8);
 	background-size: cover;
 	padding: 0;
 	position: relative;
@@ -1795,4 +1799,97 @@ Icon for all respective meta
     border: 5px solid #FFF;
     padding: 5px;
     box-shadow: 0 0px 0px 1px #eee;
+}
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+
+/* Bubble Slider */
+
+.bubble blockquote {
+	margin: 10px 10px 0;
+	background: #fff;
+	padding: 60px;
+	position: relative;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.25em;
+	color: #1e528e;
+}
+.bubble blockquote:before, .bubble blockquote:after {
+	content: "\201C";
+	position: absolute;
+	font-size: 80px;
+	padding: 10px;
+	line-height: 1;
+	color: #1e528e;
+}
+.bubble blockquote:before {
+	top: 0;
+	left: 10px;
+}
+.bubble blockquote:after {
+	content: "\201D";
+	right: 10px;
+	bottom: -.5em;
+}
+.bubble div {
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	margin: 0 0 0 60px;
+	margin-bottom: 10px;
+}
+.bubble cite {
+	padding-left: 20px;
+	font-size: 1.25em;
+  color:#f7f7f7;
+}
+
+.testimonial-container {
+    background-color: #1a1e23;
+    width: 100%;
+    padding: 120px 0 50px;
+}
+
+.quotes {
+    margin-top: 100px;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+
+.form-control{
+    width: 80% !important;
+    margin: 0 auto !important;
+    display: block !important;
+    margin-bottom: 20px !important;
+}
+
+#contactMe {
+    margin-left: 50px;
 }
